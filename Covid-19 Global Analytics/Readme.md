@@ -9,7 +9,7 @@
 ---
 
 ## 🛠️ Data Engineering & Wrangling (The Heavy Lifting)
-The raw datasets provided by global health organizations were highly unstructured and stored in a "wide" format. I utilized **Python (Pandas & NumPy)** to execute complex data cleaning pipelines before any analysis could begin:
+The raw datasets provided by global health organizations were highly unstructured and stored in a "wide" format. I utilized **Python (Pandas)** to execute complex data cleaning pipelines before any analysis could begin:
 
 * **Header Repair & Indexing:** Bypassed corrupted initial rows in the `deaths` and `recovered` files by utilizing `header=1`, combined with `.iloc[0]` and `.reset_index(drop=True)` to dynamically rebuild the dataframes.
 * **Dimensionality Transformation (`pd.melt`):** The raw data contained over 400 individual date columns. I utilized `pd.melt()` to unpivot this massive dataset into a highly structured "long" chronological format, locking geographic keys to enable accurate time-series analysis.
@@ -29,4 +29,4 @@ Using **Matplotlib** and **Seaborn**, I built corporate-grade visualizations to 
 ## 💡 Business Value
 This project demonstrates how raw, disconnected data can be transformed into actionable strategy. By tracking metrics like the "Recovery Ratio" and identifying regional fatality outliers, stakeholders can pinpoint exactly where a healthcare system is losing efficiency, allowing for targeted deployment of emergency funding, ventilators, and medical personnel.
 
-**Tech Stack:** Python | Pandas | NumPy | Matplotlib | Seaborn | Jupyter Notebook
+**Tech Stack:** Python | Pandas | Matplotlib | Seaborn | Jupyter Notebook
