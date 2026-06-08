@@ -1,4 +1,4 @@
-# 🦠 COVID-19 Global Pandemic Analysis: A Data-Driven Case Study
+## 🦠 COVID-19 Global Pandemic Analysis: A Data-Driven Case Study
 
 ## 1. The Problem Statement (Why this project?)
 During the COVID-19 pandemic, raw data was published daily, but simply looking at "total case numbers" did not provide actionable insights. The core problem was that massive, unformatted datasets made it difficult to answer critical questions:
