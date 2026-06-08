@@ -15,14 +15,16 @@ The heaviest lifting in this project was the data cleaning and preprocessing pha
 * **Data Visualization:** Built corporate-grade visualizations using **Matplotlib** and **Seaborn**, moving away from default color palettes to professional "Navy and Teal" visual benchmarks.
 
 ## 3. Analytical Results & Visualizations (What I Found)
-By transforming the data, I was able to extract specific, localized insights rather than just global totals:
+By transforming the data, I was able to build a comprehensive visual narrative that moves from global macro-trends down to localized healthcare efficiency metrics. Here are the core insights generated:
 
-* **Regional Fatality Disparities (Canada Drill-Down):** Executed a granular geographic drill-down comparing the Death Rates across Canadian provinces. The visualization proved that national averages hide massive localized healthcare crises—some provinces faced significantly higher fatality rates than others.
-* **Global Mortality Benchmarks:** Isolated and plotted the Top 3 nations with the absolute highest average fatality rates, creating a clear benchmark of the most overwhelmed regions.
-* **Tracking Healthcare Efficiency (US Recovery Ratio):** Instead of plotting total cases, I engineered a new KPI: the **Month-over-Month Recovery Ratio**. By plotting this trend line, the data revealed clear fluctuations in how effectively the US healthcare system converted cases to recoveries over time.
-* **Cumulative Outcome Benchmarking:** Created a high-level efficacy benchmark for South Africa, comparing total recoveries vs. fatalities to measure ultimate clinical outcomes.
-
-*(Note to hiring managers: Please see the attached `.ipynb` file for the complete visual outputs and code logic).*
+* **Global Infection Trajectories (The Top 5):** I began by isolating the Top 5 most affected nations globally. By mapping their cumulative confirmed cases over time, I visualized the initial exponential growth phases and identified the exact inflection points where containment protocols began to flatten the curve.
+* **Transmission Volatility in Europe:** Plotted the daily new cases for Germany, France, and Italy. This high-frequency time-series analysis highlighted the severe volatility of the spread, mapping the direct impact of variant waves over time.
+* **Cumulative Mortality Trends (United States):** Charted the total cumulative deaths over time in the US. Analyzing the slope of this curve provided a clear historical footprint of when the US healthcare system faced the most significant strain.
+* **Healthcare Efficacy Benchmarking (Australia vs. Canada):** Created a direct, side-by-side comparison of the recovery rates between Australia and Canada, utilizing standardized metrics to bypass the differences in raw population numbers.
+* **Regional Fatality Disparities (Canada Drill-Down):** Executed a granular geographic drill-down comparing the Death Rates across all Canadian provinces. The visualization proved that national averages hide massive localized healthcare crises—certain provinces faced significantly higher fatality rates than others.
+* **Global Mortality Extremes (Top 3):** Isolated and plotted the top 3 specific entities with the highest average fatality rates (Yemen, Mexico, and the MS Zaandam), benchmarking the most extreme public health failures.
+* **Clinical Outcome Balance (South Africa):** Created a high-level efficacy benchmark for South Africa, comparing total recoveries against fatalities to measure the ultimate clinical outcome of the pandemic in that region.
+* **Tracking Healthcare Efficiency (US Recovery Ratio):** Instead of just plotting total cases, I engineered a new KPI: the **Month-over-Month Recovery Ratio**. By plotting this trend line, the data revealed clear fluctuations in how effectively the US healthcare system converted cases to recoveries, normalizing for case volume to measure true operational efficiency.
 
 ## 4. Business Outcome & Overcoming Challenges
 The primary challenge of this project was data inconsistency—specifically, merging datasets where geographic reporting standards varied wildly by country. By heavily utilizing Pandas to structure and normalize the data, this project successfully created a clean, unified database.
