@@ -3,9 +3,9 @@
 **TL;DR:** An end-to-end Exploratory Data Analysis (EDA) of global COVID-19 data. I built a Python data pipeline to ingest, clean, and transform messy, multi-dimensional epidemiological datasets into business-ready insights. **Key achievement:** Engineered a custom "Month-over-Month Recovery Ratio" metric to track true healthcare operational efficiency, moving beyond standard cumulative case counting.
 
 ### 📊 Project Highlights
-<a hreff = "https://github.com/iaarifpathan/Python-Project/blob/main/Covid-19%20Global%20Analytics/us_recovery_ratio.png"> US Recovery Ratio </a>
+![US Recovery Ratio](https://github.com/iaarifpathan/Python-Project/blob/main/Covid-19%20Global%20Analytics/us_recovery_ratio.png?raw=true)
 
-<a hreff = "https://github.com/iaarifpathan/Python-Project/blob/main/Covid-19%20Global%20Analytics/canada_provinces.png"> Canada Provinces </a>
+![Canada Provinces](https://github.com/iaarifpathan/Python-Project/blob/main/Covid-19%20Global%20Analytics/canada_provinces.png?raw=true)
 
 ---
 
